@@ -1,0 +1,59 @@
+<html>
+<head>
+	<style>
+		.miestilo{
+			font-family: 'helvetica';
+			color:  orange;
+			font-size: 1em;
+		}
+	</style>
+</head>
+<body>
+	<table border="0" cellpadding="0" cellspacing="0" align="center">
+		<form action="guardar.php" method="post" class="miestilo">
+
+			<tr>
+			<td>Ingrese su dni</td>
+			<td><input type="number" name="dni" required></td>
+			</tr>
+
+			<tr>
+			<td>Ingrese su nombre</td>
+			<td><input type="text" name="nombre" required></td>
+			</tr>
+
+			<tr>
+			<td>Ingrese su apellido</td>
+			<td><input type="text" name="apellido" required></td>
+			</tr>
+
+			<tr>
+			<td>Evento</td>
+			<td><input type="text" name="evento" required></td>
+			</tr>
+
+			<tr>
+			<td>Descripcion</td>
+			<td><textarea name="descripcion" required></textarea></td>
+			</tr>
+
+			<tr>
+			<td>Operador</td>
+			<td><select name="operador">
+				<option selected>Seleccione</option>
+				<option value="admin">Administrador</option>
+				<option value="operador 1">Operador 1</option>
+				<option value="operador 2">Operador 2</option>
+				<option value="operador 3">Operador 3</option>
+			</select></td>
+			</tr>
+
+			<tr>
+			<td></td>
+			<td><input type="submit" value="Generar evento"></td>
+			<tr>
+
+		</form>
+	</table>
+</body>
+</html>

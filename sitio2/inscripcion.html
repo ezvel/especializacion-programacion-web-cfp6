@@ -1,0 +1,38 @@
+<html>
+<body>
+	<center><h1>FORMULARIO DE INSCRIPCIÓN AL CURSO</h1></center>
+	<form action="inscripto.php" method="post" enctype="multipart/form-data">
+		usuario<input type="text" name="usuario">
+		<br>		
+		contraseña<input type="password" name="password">
+		<br>
+		Pais<select name="pais">
+				<option selected>Seleccione</option>
+				<option value="ARG">Argentina</option>
+				<option value="BRA">Brasil</option>
+				<option value="CHL">Chile</option>
+				<option value="MEX">Mexico</option>
+				<option value="USA">Estados Unidos</option>
+			</select>
+		<br>
+		¿Tiene Pc?
+		SI<input type="radio" name="PC" value="si"> <!--name - restriccion-->
+		NO<input type="radio" name="PC" value="no">
+		<br>
+		¿Desea subscribirse a las noticias?
+		SI<input type="checkbox" name="noticias" value="1" checked>
+		<br>
+		Fecha de nacimiento<input type="date" name="fechanac" value="2018-07-22" min="1900-01-01" max="2023-12-31">
+		<br>
+		Comentarios
+		<br>
+		<textarea name="comentario" cols="50" rows="10">
+		</textarea>
+		<br>
+		<input type="file" name="archivo">
+		<br>
+		<input type="submit" value="enviar">
+		<input type="reset" value="borrar">
+	</form>
+</body>
+</html>

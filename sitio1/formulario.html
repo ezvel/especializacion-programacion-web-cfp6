@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<!--estilos css -->
+<style>
+
+	body {
+		background: linear-gradient(to right, #005050, #000000);
+	}
+
+	input {
+		background-color:  orange;
+	}
+
+	.estiloPablo{
+		background-color: red;
+	}
+
+</style>
+<body>
+	<!-- tabla -->
+	<table border="1" cellspacing="1" cellpading="2" align="center">
+		<!-- formulario -->
+		<form action="enviado.php" method="get">
+			<!--fila 1 -->
+			<tr>
+			<td>Nombre</td><td><input type="text" name="nombre"></td>
+			</tr>
+
+			<!--fila 2 -->
+			<tr>
+			<td>Apellido</td><td><input type="text" name="apellido"></td>
+			</tr>
+
+			<!--fila 3-->
+			<tr>
+			<td></td>
+			<td><input type="submit" value="enviar" class="estiloPablo "></td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>

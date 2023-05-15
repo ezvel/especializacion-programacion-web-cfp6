@@ -1,0 +1,61 @@
+-------------------------------------------------------------
+18:55 10/5/2023
+
+POO
+
+Modularizar un programa
+La clase es el plano o el modelo
+El objeto es el modelo construido
+De la clase al objeto -> instanciación
+
+Herencia
+El hijo hereda las características y propiedades
+del padre, y el mismo tiene las suyas propias.
+Relación que se genera entre la clase padr y la clase hija
+Con esto evitamos tener que construir nuevamente las
+características y funcionalidades
+
+Encapsulamiento
+Decirles a las propiedades que no van a ser públicas.
+Es cómo cerrar la puerta al exterior. Queda privada
+
+private marca cadena_de_caracteres
+
+3 estados
+privado
+protegido
+público
+
+Clases abstractas
+No tiene instanciación. No puede crear objetos.
+Demasiado genérica para instanciar objetos. No
+necesitaría clases genéricas para instanciar
+Pero las necesito cómo referencia o modelo
+para las otras clases que compartirán las
+características y métodos genéricos de la
+clase padre.
+
+Polimorfismo
+Un método funcione de distinas maneras 
+
+Manejo de conexiones de base de datos
+con clases y objetos
+mysqli 
+pdo ---> evita la inyeccion sql. Más segura
+Por eso es mejor conectarse a la base de datos con objetos
+
+Método constructor
+
+! iseet --> No está conectada o no existe
+
+fetch_array --> VECTOR ASOCIATIVO
+mysqli_num_row
+
+Revisar archivos con whatsApp Web
+
+-------------------------------------------------------------
+
+
+
+
+

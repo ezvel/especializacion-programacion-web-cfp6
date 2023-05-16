@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sitio 13</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	
+	<p id="demo"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+
+	<script>
+
+		//document.getElementById('demo').innerHTML = "Hola";
+		document.getElementById('demo').textContent = "Hola";
+
+		var a = "un nombre";
+		let b = 10;	
+		let c = true;
+		let mensaje;
+		const MENSAJE = "Un mensaje desde la constante"; 
+		document.getElementById('demo2').textContent=MENSAJE;
+
+		const EQUIPOS = ['river' , 'boca', 'Ferro', 'Velez'];
+
+		//document.getElementById('demo3').innerHTML = `<span class='verde negrita grande'>${EQUIPOS[2]}</span>`;
+		
+		//EQUIPOS.sort();
+		console.log(EQUIPOS.sort());
+		console.log(EQUIPOS.reverse());
+
+		EQUIPOS.pop();
+		EQUIPOS.push("Independiente");
+
+		const EQUIPOS_ORDENADOS = EQUIPOS.sort();
+
+		for(let indice = 0; indice < EQUIPOS_ORDENADOS.length; indice = indice + 1) {
+			document.getElementById('demo3').innerHTML += `<div class='negrita grande'>${EQUIPOS_ORDENADOS[indice]}</div>`;
+		}
+	
+		//console.log("El valor de a es " + a)
+		//alert("El valor de a es " + a)
+	
+		/*
+		if (b === 10) {
+			alert(`El valor es ${b}`);
+		} else {
+			alert("no es el valor solicitado")
+		}*/
+		
+		/*
+		let d = prompt("TITULO", "mensaje");
+	
+		if (d == "administrador") {
+			alert("Sos el admin");
+		} else {
+			alert("Sos invitado");
+		}*/
+	
+		if(confirm("Indique aceptar o cancelar") === true) {
+			mensaje = "Presiono aceptar";
+			alert(mensaje);
+		} else {
+			mensaje = "Presiono cancelar";
+			alert(mensaje);
+		}
+		
+		document.write(mensaje);
+
+		
+	
+	</script>
+	
+</body>
+</html>

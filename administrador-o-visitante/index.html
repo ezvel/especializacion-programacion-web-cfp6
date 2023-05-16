@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="mensaje">
+
+    </div>
+     <script>
+
+        const ADMIN_1 = "Jose";
+        const ADMIN_2 = "Ana";
+        const ADMIN_3 = "Pedro";
+
+        let nombre = prompt("NOMBRE", "Indique su nombre");
+
+        if (
+               (nombre === ADMIN_1) ||
+               (nombre === ADMIN_2) ||
+               (nombre === ADMIN_3)
+        ){
+            document.getElementById('mensaje').innerHTML="<h1 class='verde'>Usted es administrador</h1>";
+        }else{
+            document.getElementById('mensaje').innerHTML="<h1 class='rojo'>Usted es visitante</h1>";
+        }
+
+     </script>   
+</body>
+</html>

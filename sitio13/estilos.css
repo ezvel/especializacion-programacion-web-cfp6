@@ -1,0 +1,23 @@
+body {
+    background-color: #313131;
+    color: #FFFFFF;
+}
+.verde {
+    color: green;
+}
+
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.grande {
+    font-size: 30px;
+}

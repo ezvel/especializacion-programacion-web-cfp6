@@ -1,0 +1,16 @@
+<button>Saludar</button>
+
+<style>
+  .red { background: red }
+</style>
+
+<script>
+const button = document.querySelector("button");
+const action = () => alert("Hello!");
+const toggle = () => button.classList.toggle("red");//le agrega la clase dinamicamente
+
+button.addEventListener("click", action);         // Hello message
+button.addEventListener("click", toggle);         // Add/remove red CSS
+//puedo agregarle varias funcionalidaded al mismo evento
+
+</script>

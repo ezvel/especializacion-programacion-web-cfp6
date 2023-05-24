@@ -1,0 +1,29 @@
+22/5/2023
+------------------------------------------------
+Temas de la clase: 
+
+- Vimos la propiedad disabled del DOM,
+la propidad ClassList y su función
+toggle
+- Los querySelector y getElementById
+- Las funciones flechas
+- Creamos un dark mode
+- El oneclick como funcion js en linea
+onclick ="cambiemostexto()"
+- getElementById trabaja con id's
+querySelector trabaja con clases
+- JavaScript fuera del HTML
+
+------------------------------------------------
+Clase:
+
+Funciones flecha
+
+Gracias a poder agregarle varias
+funcionalidadesd al mismo evento
+ayuda a no meter todas esas funcionalidades
+a la misma función, sino dividir todas
+las funcionalidades en pequeñas funciones
+
+Con toggle agrego y quito clases html de manera
+dinámica
